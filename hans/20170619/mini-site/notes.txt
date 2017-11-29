@@ -1,0 +1,9 @@
+中文官网：http://magic.wizards.com/zh-hans
+请参考中文官网更新mini-site页面：
+1）去掉mini-site页阿芒凯标签，使用“幻灭时刻”标签页代替，并将“幻灭时刻”设置为默认打开页；
+2）“幻灭时刻”页文案使用中文官网文案；
+3）“幻灭时刻”页三个tab按钮使用以下链接；
+左：http://magic.wizards.com/zh-hans/products/card-set-archive
+中：http://magic.wizards.com/zh-hans/new-to-magic
+右：http://magic.wizards.com/zh-hans/products/coming-soon
+4）“幻灭时刻”页使用原mini-site页头及页脚

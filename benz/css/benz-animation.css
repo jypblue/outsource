@@ -1,0 +1,906 @@
+/*css 特效*/
+
+.animated {
+  -webkit-animation-duration: 2s;
+  animation-duration: 2s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+}
+
+@-webkit-keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+.fadeIn {
+  -webkit-animation-name: fadeIn;
+  animation-name: fadeIn;
+}
+
+@-webkit-keyframes slideInLeft {
+  from {
+    -webkit-transform: translate3d(-100%, 0, 0);
+    transform: translate3d(-100%, 0, 0);
+    visibility: visible;
+  }
+
+  to {
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+  }
+}
+
+@keyframes slideInLeft {
+  from {
+    -webkit-transform: translate3d(-100%, 0, 0);
+    transform: translate3d(-100%, 0, 0);
+    visibility: visible;
+  }
+
+  to {
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+  }
+}
+
+.slideInLeft {
+  -webkit-animation-name: slideInLeft;
+  animation-name: slideInLeft;
+}
+
+@-webkit-keyframes slideInRight {
+  from {
+    -webkit-transform: translate3d(100%, 0, 0);
+    transform: translate3d(100%, 0, 0);
+    visibility: visible;
+  }
+
+  to {
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+  }
+}
+
+@keyframes slideInRight {
+  from {
+    -webkit-transform: translate3d(100%, 0, 0);
+    transform: translate3d(100%, 0, 0);
+    visibility: visible;
+  }
+
+  to {
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+  }
+}
+
+.slideInRight {
+  -webkit-animation-name: slideInRight;
+  animation-name: slideInRight;
+}
+
+
+/*旗帜摇动*/
+
+@-webkit-keyframes flag-wave {
+    0% {
+        transform: rotate(-10deg);
+        transform-origin: 0% 100%;
+    }
+    25% {
+        transform: rotate(-5deg);
+        transform-origin: 0% 100%;
+    }
+    50% {
+        transform: rotate(0deg);
+        transform-origin: 0% 100%;
+    }
+    75% {
+        transform: rotate(5deg);
+        transform-origin: 0% 100%;
+    }
+    100% {
+        transform: rotate(10deg);
+        transform-origin: 0% 100%;
+    }
+}
+
+@keyframes flag-wave {
+    0% {
+        transform: rotate(-10deg);
+        transform-origin: 0% 100%;
+    }
+    25% {
+        transform: rotate(-5deg);
+        transform-origin: 0% 100%;
+    }
+    50% {
+        transform: rotate(0deg);
+        transform-origin: 0% 100%;
+    }
+    75% {
+        transform: rotate(5deg);
+        transform-origin: 0% 100%;
+    }
+    100% {
+        transform: rotate(10deg);
+        transform-origin: 0% 100%;
+    }
+}
+
+.flag-wave {
+    -webkit-animation: flag-wave 1.5s linear infinite alternate;
+    animation: flag-wave 1.5s linear infinite alternate;
+}
+
+
+/*圆向外扩展*/
+@keyframes warn {
+    0% {
+        transform: scale(0);
+        opacity: 0.0;
+    }
+    25% {
+        transform: scale(0.25);
+        opacity: 0.1;
+    }
+    50% {
+        transform: scale(0.5);
+        opacity: 0.25;
+    }
+    75% {
+        transform: scale(0.75);
+        opacity: 0.5;
+    }
+    100% {
+        transform: scale(1);
+        opacity: 0.0;
+    }
+}
+
+@-webkit-keyframes warn {
+    0% {
+        transform: scale(0);
+        opacity: 0.0;
+    }
+    25% {
+        transform: scale(0.25);
+        opacity: 0.1;
+    }
+    50% {
+        transform: scale(0.5);
+        opacity: 0.25;
+    }
+    75% {
+        transform: scale(0.75);
+        opacity: 0.5;
+    }
+    100% {
+        transform: scale(1);
+        opacity: 0.0;
+    }
+}
+
+.pulse {
+    -webkit-animation: warn 2.5s linear infinite;
+    animation: warn 2.5s linear infinite;
+    /*-webkit-animation-iteration-count: infinite;
+    animation-iteration-count: infinite;*/
+}
+
+.pulse2 {
+    -webkit-animation: warn 2s linear infinite;
+    animation: warn 2s linear infinite;
+    /*-webkit-animation-iteration-count: infinite;
+    animation-iteration-count: infinite;*/
+}
+
+
+/*杯子左右移动*/
+@-webkit-keyframes coffeecupwave {
+    0% {
+        right: 0.24rem;
+    }
+    25% {
+        right: 0.19rem;
+    }
+    50% {
+        right: 0.24rem;
+    }
+    75% {
+        right: 0.29rem;
+    }
+    100% {
+        right: 0.24rem;
+    }
+}
+
+@keyframes coffeecupwave {
+    0% {
+        right: 0.24rem;
+    }
+    25% {
+        right: 0.19rem;
+    }
+    50% {
+        right: 0.24rem;
+    }
+    75% {
+        right: 0.29rem;
+    }
+    100% {
+        right: 0.24rem;
+    }
+}
+
+.coffee-cup-wave {
+    -webkit-animation: coffeecupwave 2s linear infinite;
+    animation: coffeecupwave 2s linear infinite;
+}
+
+@-webkit-keyframes bean1wave {
+    0% {
+        right: 1.12rem;
+    }
+    25% {
+        right: 1.17rem;
+    }
+    50% {
+        right: 1.12rem;
+    }
+    75% {
+        right: 1.07rem;
+    }
+    100% {
+        right: 1.12rem;
+    }
+}
+@keyframes bean1wave {
+    0% {
+        right: 1.12rem;
+    }
+    25% {
+        right: 1.17rem;
+    }
+    50% {
+        right: 1.12rem;
+    }
+    75% {
+        right: 1.07rem;
+    }
+    100% {
+        right: 1.12rem;
+    }
+}
+
+.bean1-wave {
+    -webkit-animation: bean1wave 2s linear infinite;
+    animation: bean1wave 2s linear infinite;
+}
+
+@-webkit-keyframes bean2wave {
+    0% {
+        right: 1.23rem;
+    }
+    25% {
+        right: 1.25rem;
+    }
+    50% {
+        right: 1.23rem;
+    }
+    75% {
+        right: 1.25rem;
+    }
+    100% {
+        right: 1.23rem;
+    }
+}
+@keyframes bean2wave {
+    0% {
+        right: 1.23rem;
+    }
+    25% {
+        right: 1.25rem;
+    }
+    50% {
+        right: 1.23rem;
+    }
+    75% {
+        right: 1.25rem;
+    }
+    100% {
+        right: 1.23rem;
+    }
+}
+
+.bean2-wave {
+    -webkit-animation: bean2wave 4s linear infinite;
+    animation: bean2wave 4s linear infinite;
+}
+
+@-webkit-keyframes bean3wave {
+    0% {
+        right: 1.36rem;
+    }
+    25% {
+        right: 1.38rem;
+    }
+    50% {
+        right: 1.36rem;
+    }
+    75% {
+        right: 1.4rem;
+    }
+    100% {
+        right: 1.36rem;
+    }
+}
+@keyframes bean3wave {
+    0% {
+        right: 1.36rem;
+    }
+    25% {
+        right: 1.38rem;
+    }
+    50% {
+        right: 1.36rem;
+    }
+    75% {
+        right: 1.4rem;
+    }
+    100% {
+        right: 1.36rem;
+    }
+}
+
+.bean3-wave {
+    -webkit-animation: bean3wave 4s linear infinite;
+    animation: bean3wave 4s linear infinite;
+}
+
+@-webkit-keyframes bean4wave {
+    0% {
+        right: 1.6rem;
+        top: 2.12rem;
+    }
+    25% {
+        right: 1.64rem;
+        top: 2.16rem;
+    }
+    50% {
+        right: 1.66rem;
+        top: 2.24rem;
+    }
+    75% {
+        right: 1.68rem;
+        top: 2.4rem;
+    }
+    100% {
+        right: 1.7rem;
+        top: 2.68rem;
+    }
+}
+@keyframes bean4wave {
+    0% {
+        right: 1.6rem;
+        top: 2.12rem;
+    }
+    25% {
+        right: 1.64rem;
+        top: 2.16rem;
+    }
+    50% {
+        right: 1.66rem;
+        top: 2.24rem;
+    }
+    75% {
+        right: 1.68rem;
+        top: 2.4rem;
+    }
+    100% {
+        right: 1.7rem;
+        top: 2.68rem;
+    }
+}
+
+.bean4-wave {
+    -webkit-animation: bean4wave 0.6s linear forwards;
+    animation: bean4wave 0.6s linear forwards;
+}
+
+@-webkit-keyframes bean5wave {
+    0% {
+        right: 1.6rem;
+        top: 2.12rem;
+    }
+    25% {
+        right: 1.62rem;
+        top: 2.14rem;
+    }
+    50% {
+        right: 1.64rem;
+        top: 2.18rem;
+    }
+    75% {
+        right: 1.66rem;
+        top: 2.28rem;
+    }
+    100% {
+        right: 1.68rem;
+        top: 2.46rem;
+    }
+}
+@keyframes bean5wave {
+    0% {
+        right: 1.6rem;
+        top: 2.12rem;
+    }
+    25% {
+        right: 1.62rem;
+        top: 2.14rem;
+    }
+    50% {
+        right: 1.64rem;
+        top: 2.18rem;
+    }
+    75% {
+        right: 1.66rem;
+        top: 2.28rem;
+    }
+    100% {
+        right: 1.68rem;
+        top: 2.46rem;
+    }
+}
+
+.bean5-wave {
+    -webkit-animation: bean5wave 0.5s linear forwards;
+    animation: bean5wave 0.5s linear forwards;
+}
+
+@keyframes skiingscale {
+    0% {
+        top: 0.5rem;
+        left: 1.18rem;
+        transform: scale(0.2);
+        transform-origin: 0% 100%;
+    }
+    100% {
+        top: 1.2rem;
+        left: 1.18rem;
+        transform: scale(1);
+        transform-origin: 0% 100%;
+    }
+}
+
+.skiing-animate {
+    -webkit-animation: skiingscale 3s linear forwards;
+    animation: skiingscale 3s linear forwards;
+}
+
+
+/*缆车1*/
+@-webkit-keyframes cablecar1move {
+    0% {
+        right: -0.56rem;
+        top: 1.22rem;
+        transform: scale(0.6);
+        transform-origin: 0% 0%;
+    }
+    20% {
+        right: 0.72rem;
+        top: 2.24rem;
+    }
+    40% {
+        right: 1.6rem;
+        top: 2.4rem;
+    }
+    60% {
+        right: 2.16rem;
+        top: 2.68rem;
+    }
+    80% {
+        right: 2.88rem;
+        top: 2.84rem;
+    }
+    100% {
+        right: 3.6rem;
+        top: 3rem;
+        transform: scale(1);
+        transform-origin: 0% 0%;
+    }
+}
+@keyframes cablecar1move {
+    0% {
+        right: -0.56rem;
+        top: 1.22rem;
+        transform: scale(0.6);
+        transform-origin: 0% 0%;
+    }
+    20% {
+        right: 0.72rem;
+        top: 2.24rem;
+    }
+    40% {
+        right: 1.6rem;
+        top: 2.4rem;
+    }
+    60% {
+        right: 2.16rem;
+        top: 2.68rem;
+    }
+    80% {
+        right: 2.88rem;
+        top: 2.84rem;
+    }
+    100% {
+        right: 3.6rem;
+        top: 3rem;
+        transform: scale(1);
+        transform-origin: 0% 0%;
+    }
+}
+
+.cable-car1-move {
+    -webkit-animation: cablecar1move 3s linear forwards;
+    animation: cablecar1move 3s linear forwards;
+}
+
+
+/*缆车2*/
+@-webkit-keyframes cablecar2move {
+    0% {
+        right: -0.44rem;
+        top: 1.22rem;
+        transform: scale(0.6);
+        transform-origin: 0% 0%;
+    }
+    20% {
+        right: 0.46rem;
+        top: 2.02rem;
+    }
+    40% {
+        right: 0.92rem;
+        top: 2.24rem;
+    }
+    60% {
+        right: 1.36rem;
+        top: 2.34rem;
+    }
+    80% {
+        right: 1.82rem;
+        top: 2.5rem;
+    }
+    100% {
+        right: 2.3rem;
+        top: 2.7rem;
+        transform: scale(1);
+        transform-origin: 0% 0%;
+    }
+}
+@keyframes cablecar2move {
+    0% {
+        right: -0.44rem;
+        top: 1.22rem;
+        transform: scale(0.6);
+        transform-origin: 0% 0%;
+    }
+    20% {
+        right: 0.46rem;
+        top: 2.02rem;
+    }
+    40% {
+        right: 0.92rem;
+        top: 2.24rem;
+    }
+    60% {
+        right: 1.36rem;
+        top: 2.34rem;
+    }
+    80% {
+        right: 1.82rem;
+        top: 2.5rem;
+    }
+    100% {
+        right: 2.3rem;
+        top: 2.7rem;
+        transform: scale(1);
+        transform-origin: 0% 0%;
+    }
+}
+
+.cable-car2-move {
+    -webkit-animation: cablecar2move 2.5s linear forwards;
+    -webkit-animation-delay: 1s;
+    animation: cablecar2move 2.5s linear forwards;
+    animation-delay: 1s;
+}
+
+
+/*缆车3*/
+@-webkit-keyframes cablecar3move {
+    0% {
+        right: -0.4rem;
+        top: 1.22rem;
+        transform: scale(0.6);
+        transform-origin: 0% 0%;
+    }
+    20% {
+        right: 0.21rem;
+        top: 1.78rem;
+    }
+    40% {
+        right: 0.42rem;
+        top: 1.92rem;
+    }
+    60% {
+        right: 0.63rem;
+        top: 2.02rem;
+    }
+    80% {
+        right: 0.84rem;
+        top: 2.12rem;
+    }
+    100% {
+        right: 1.04rem;
+        top: 2.18rem;
+        transform: scale(1);
+        transform-origin: 0% 0%;
+    }
+}
+@keyframes cablecar3move {
+    0% {
+        right: -0.4rem;
+        top: 1.22rem;
+        transform: scale(0.6);
+        transform-origin: 0% 0%;
+    }
+    20% {
+        right: 0.21rem;
+        top: 1.78rem;
+    }
+    40% {
+        right: 0.42rem;
+        top: 1.92rem;
+    }
+    60% {
+        right: 0.63rem;
+        top: 2.02rem;
+    }
+    80% {
+        right: 0.84rem;
+        top: 2.12rem;
+    }
+    100% {
+        right: 1.04rem;
+        top: 2.18rem;
+        transform: scale(1);
+        transform-origin: 0% 0%;
+    }
+}
+
+.cable-car3-move {
+    -webkit-animation: cablecar3move 1.5s linear forwards;
+    -webkit-animation-delay: 2s;
+    animation: cablecar3move 1.5s linear forwards;
+    animation-delay: 2s;
+}
+
+
+/*缆车晃动*/
+
+@-webkit-keyframes cablecarwave {
+    0% {
+        transform: rotate(-6deg);
+        transform-origin: 0% 0%;
+    }
+    25% {
+        transform: rotate(-3deg);
+        transform-origin: 0% 0%;
+    }
+    50% {
+        transform: rotate(0deg);
+        transform-origin: 0% 0%;
+    }
+    75% {
+        transform: rotate(3deg);
+        transform-origin: 0% 0%;
+    }
+    100% {
+        transform: rotate(6deg);
+        transform-origin: 0% 0%;
+    }
+}
+@keyframes cablecarwave {
+    0% {
+        transform: rotate(-6deg);
+        transform-origin: 0% 0%;
+    }
+    25% {
+        transform: rotate(-3deg);
+        transform-origin: 0% 0%;
+    }
+    50% {
+        transform: rotate(0deg);
+        transform-origin: 0% 0%;
+    }
+    75% {
+        transform: rotate(3deg);
+        transform-origin: 0% 0%;
+    }
+    100% {
+        transform: rotate(6deg);
+        transform-origin: 0% 0%;
+    }
+}
+
+.cable-wave {
+    -webkit-animation: cablecarwave 1.5s linear infinite alternate;
+    animation: cablecarwave 1.5s linear infinite alternate;
+}
+
+
+/*奶牛1*/
+
+@-webkit-keyframes cow1move {
+    0% {
+        right: 1.04rem;
+    }
+    25% {
+        right: 1.44rem;
+    }
+    50% {
+        right: 1.04rem;
+    }
+    75% {
+        right: 0.64rem;
+    }
+    100% {
+        right: 1.04rem;
+    }
+}
+@keyframes cow1move {
+    0% {
+        right: 1.04rem;
+    }
+    25% {
+        right: 1.44rem;
+    }
+    50% {
+        right: 1.04rem;
+    }
+    75% {
+        right: 0.64rem;
+    }
+    100% {
+        right: 1.04rem;
+    }
+}
+
+.cow1-move {
+    -webkit-animation: cow1move 10s linear infinite alternate;
+    animation: cow1move 10s linear infinite alternate;
+}
+
+@-webkit-keyframes cow2move {
+    0% {
+        right: 0.14rem;
+    }
+    25% {
+        right: -0.44rem;
+    }
+    50% {
+        right: 0.14rem;
+    }
+    75% {
+        right: 0.54rem;
+    }
+    100% {
+        right: 0.14rem;
+    }
+}
+@keyframes cow2move {
+    0% {
+        right: 0.14rem;
+    }
+    25% {
+        right: -0.44rem;
+    }
+    50% {
+        right: 0.14rem;
+    }
+    75% {
+        right: 0.54rem;
+    }
+    100% {
+        right: 0.14rem;
+    }
+}
+
+.cow2-move {
+    -webkit-animation: cow2move 8s linear infinite;
+    animation: cow2move 8s linear infinite;
+}
+
+
+/*酒店倒影放大*/
+@-webkit-keyframes restshadow {
+    0% {
+        transform: scale(0.5);
+        transform-origin: 0% 0%;
+    }
+    100% {
+        transform: scale(1);
+        transform-origin: 0 0%;
+    }
+}
+
+@keyframes restshadow {
+    0% {
+        transform: scale(0.5);
+        transform-origin: 0% 0%;
+    }
+    100% {
+        transform: scale(1);
+        transform-origin: 0 0%;
+    }
+}
+
+.rest-shadow-scale {
+    -webkit-animation: restshadow 1.5s linear forwards;
+    animation: restshadow 1.5s linear forwards;
+}
+
+
+/*手表*/
+
+@-webkit-keyframes watchmove {
+    0% {
+        right: 0.1rem;
+        top: 0.55rem;
+    }
+    50% {
+        top: 0rem;
+        right: 1.25rem;
+    }
+    100% {
+        transform: scale(1) rotate(0deg);
+        top: 0.98rem;
+        right: 1.68rem;
+    }
+}
+@keyframes watchmove {
+    0% {
+        right: 0.1rem;
+        top: 0.55rem;
+    }
+    50% {
+        top: 0rem;
+        right: 1.25rem;
+    }
+    100% {
+        transform: scale(1) rotate(0deg);
+        top: 0.98rem;
+        right: 1.68rem;
+    }
+}
+
+.watch-move {
+    -webkit-animation: watchmove 5s linear forwards;
+    animation: watchmove 5s linear forwards;
+}
