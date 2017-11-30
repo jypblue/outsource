@@ -4,11 +4,360 @@
     <title>MEhome</title>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- 原型使用，如果项目中有类似重置css则无需该reset.css -->
+    <link rel="stylesheet" href="css/reset.css">
     <link href="css/style.css" rel="stylesheet">
   </head>
   <body>
     <!--  -->
+    <div class="mh-home clearfix">
+      <!-- 地图占位无意义 -->
+      <div class="mh-map">
+      </div>
+      <!-- 右边表格 -->
+      <div class="mh-tablels">
+        <!-- 顶部筛选条 -->
+        <div class="mh-tablels__sortbar clearfix">
+          <span class="fl">
+            共 <em class="mh-tablels__total-num">10000</em> 套房
+          </span>
+          <a class="mh-tablels__sort-style fr">
+            <span>排序方式</span>
+            <i class="mh-icon__invert-tria"></i>
+            <ul class="mh-tablels__subnav">
+              <li>demo1</li>
+              <li>demo2</li>
+              <li>demo3</li>
+            </ul>
+          </a>
+        </div>
 
+        <!-- 具体表格 -->
+        <div class="mh-tablels__table">
+          <!-- 表格title -->
+          <div class="mh-tablels__table-head">
+            <ul class="clearfix">
+              <li class="mh-tablels__address">地址</li>
+              <li class="mh-tablels__house-age">房龄</li>
+              <li class="mh-tablels__house-area">房屋面积</li>
+              <li class="mh-tablels__price">售价</li>
+              <li class="mh-tablels__unit-price">单价</li>
+              <li class="mh-tablels__bedroom">卧室</li>
+              <li class="mh-tablels__shower-room">浴室</li>
+            </ul>
+          </div>
+
+          <!-- 自定义滚动部分 -->
+          <div class="mh-tablels__table-body-wrap">
+            <!-- 表格body -->
+            <div class="mh-tablels__table-body">
+
+              <!-- 一条数据 -->
+              <div class="mh-tablels__tr1 is-active">
+                <ul class="clearfix">
+                    <li class="mh-tablels__address">North Vancouver，BC</li>
+                    <li class="mh-tablels__house-age">100</li>
+                    <li class="mh-tablels__house-area">4000 sqft</li>
+                    <li class="mh-tablels__price">$300M</li>
+                    <li class="mh-tablels__unit-price">$1800</li>
+                    <li class="mh-tablels__bedroom">2卧</li>
+                    <li class="mh-tablels__shower-room">1卫</li>
+                </ul>
+              </div>
+              <div class="mh-tablels__tr2 clearfix">
+                <!-- 可以使用jquery插件superslide  -->
+                <div class="mh-tablels__slider fl">
+                  <!-- 轮播主体 -->
+                  <div class="mh-tablels__slider-bd">
+                    <ul>
+                      <li><a href=""><img src="./img/slider_pic.jpg" alt=""></a></li>
+                    </ul>
+                  </div>
+                  <!-- 轮播页码 -->
+                  <div class="mh-tablels__slider-hd">
+                    <span class="mh-tablels__slider-hd--curnum">
+                      5/10
+                    </span>
+                  </div>
+                  <!-- 左右滚动 -->
+                  <a  class="mh-tablels__slider-prev"><i class="mh-tablels__icon-prev"></i></a>
+                  <a  class="mh-tablels__slider-next"><i class="mh-tablels__icon-next"></i></a>
+                </div>
+
+                <table class="mh-tablels__sub-table fl">
+                  <tr>
+                    <td class="mh-tablels__sub-table--title">
+                      地址
+                    </td>
+                    <td>
+                      105 3479 WESBROOK NALL
+                    </td>
+                  </tr>
+                  <tr>
+                    <td class="mh-tablels__sub-table--title">
+                      土地面积
+                    </td>
+                    <td>
+                      4000 sqft
+                    </td>
+                  </tr>
+                  <tr>
+                    <td class="mh-tablels__sub-table--title">
+                      小区
+                    </td>
+                    <td>
+                      温西 Point Grey
+                    </td>
+                  </tr>
+                  <tr>
+                    <td class="mh-tablels__sub-table--title">
+                      房屋面积
+                    </td>
+                    <td></td>
+                  </tr>
+                  <tr>
+                    <td class="mh-tablels__sub-table--title">
+                      <i class="mh-tablels__icon-openday"></i>
+                      <span>开放日</span>
+                    </td>
+                    <td class="mh-tablels__td-btns">
+                      <button class="mh-tablels__btn is-gray">查看详情</button>
+                      <button class="mh-tablels__btn is-red">加入收藏</button>
+                    </td>
+                  </tr>
+                </table>
+              </div>
+              <!-- 一条数据 -->
+              <div class="mh-tablels__tr1">
+                <ul class="clearfix">
+                  <li class="mh-tablels__address">North Vancouver，BC</li>
+                  <li class="mh-tablels__house-age">100</li>
+                  <li class="mh-tablels__house-area">4000 sqft</li>
+                  <li class="mh-tablels__price">$300M</li>
+                  <li class="mh-tablels__unit-price">$1800</li>
+                  <li class="mh-tablels__bedroom">2卧</li>
+                  <li class="mh-tablels__shower-room">1卫</li>
+                </ul>
+              </div>
+              <div class="mh-tablels__tr2 clearfix hide">
+                <div class="mh-tablels__slider fl">
+                  <div class="mh-tablels__slider-bd">
+                    <ul>
+                      <li><a href=""><img src="./img/slider_pic.jpg" alt=""></a></li>
+                    </ul>
+                  </div>
+                  <div class="mh-tablels__slider-hd">
+                    <span class="mh-tablels__slider-hd--curnum">
+                      5/10
+                    </span>
+                  </div>
+                  <a  class="mh-tablels__slider-prev"><i class="mh-tablels__icon-prev"></i></a>
+                  <a  class="mh-tablels__slider-next"><i class="mh-tablels__icon-next"></i></a>
+                </div>
+
+                <table class="mh-tablels__sub-table fl">
+                  <tr>
+                    <td class="mh-tablels__sub-table--title">
+                      地址
+                    </td>
+                    <td>
+
+                    </td>
+                  </tr>
+                  <tr>
+                    <td class="mh-tablels__sub-table--title">
+                      土地面积
+                    </td>
+                    <td></td>
+                  </tr>
+                  <tr>
+                    <td class="mh-tablels__sub-table--title">
+                      小区
+                    </td>
+                    <td></td>
+                  </tr>
+                  <tr>
+                    <td class="mh-tablels__sub-table--title">
+                      房屋面积
+                    </td>
+                    <td></td>
+                  </tr>
+                  <tr>
+                    <td class="mh-tablels__sub-table--title">
+                      <i class="mh-tablels__icon-openday"></i>
+                      <span>开放日</span>
+                    </td>
+                    <td class="mh-tablels__td-btns">
+                      <button class="mh-tablels__btn is-gray">查看详情</button>
+                      <button class="mh-tablels__btn is-red">加入收藏</button>
+                    </td>
+                  </tr>
+                </table>
+              </div>
+              <!-- 一条数据 -->
+              <div class="mh-tablels__tr1">
+                <ul class="clearfix">
+                  <li class="mh-tablels__address">地址</li>
+                  <li class="mh-tablels__house-age">房龄</li>
+                  <li class="mh-tablels__house-area">房屋面积</li>
+                  <li class="mh-tablels__price">售价</li>
+                  <li class="mh-tablels__unit-price">单价</li>
+                  <li class="mh-tablels__bedroom">卧室</li>
+                  <li class="mh-tablels__shower-room">浴室</li>
+                </ul>
+              </div>
+              <div class="mh-tablels__tr2 clearfix hide">
+                <div class="mh-tablels__slider fl">
+                  <div class="mh-tablels__slider-bd">
+                    <ul>
+                      <li><a href=""><img src="./img/slider_pic.jpg" alt=""></a></li>
+                    </ul>
+                  </div>
+                  <div class="mh-tablels__slider-hd">
+                    <span class="mh-tablels__slider-hd--curnum">
+                      5/10
+                    </span>
+                  </div>
+                  <a  class="mh-tablels__slider-prev"><i class="mh-tablels__icon-prev"></i></a>
+                  <a  class="mh-tablels__slider-next"><i class="mh-tablels__icon-next"></i></a>
+                </div>
+                <table class="mh-tablels__sub-table fl">
+                  <tr>
+                    <td class="mh-tablels__sub-table--title">
+                      地址
+                    </td>
+                    <td>
+
+                    </td>
+                  </tr>
+                  <tr>
+                    <td class="mh-tablels__sub-table--title">
+                      土地面积
+                    </td>
+                    <td></td>
+                  </tr>
+                  <tr>
+                    <td class="mh-tablels__sub-table--title">
+                      小区
+                    </td>
+                    <td></td>
+                  </tr>
+                  <tr>
+                    <td class="mh-tablels__sub-table--title">
+                      房屋面积
+                    </td>
+                    <td></td>
+                  </tr>
+                  <tr>
+                    <td class="mh-tablels__sub-table--title">
+                      <i class="mh-tablels__icon-openday"></i>
+                      <span>开放日</span>
+                    </td>
+                    <td class="mh-tablels__td-btns">
+                      <button class="mh-tablels__btn is-gray">查看详情</button>
+                      <button class="mh-tablels__btn is-red">加入收藏</button>
+                    </td>
+                  </tr>
+                </table>
+              </div>
+             <!-- 一条数据 -->
+             <div class="mh-tablels__tr1">
+                <ul class="clearfix">
+                  <li class="mh-tablels__address">地址</li>
+                  <li class="mh-tablels__house-age">房龄</li>
+                  <li class="mh-tablels__house-area">房屋面积</li>
+                  <li class="mh-tablels__price">售价</li>
+                  <li class="mh-tablels__unit-price">单价</li>
+                  <li class="mh-tablels__bedroom">卧室</li>
+                  <li class="mh-tablels__shower-room">浴室</li>
+                </ul>
+              </div>
+              <div class="mh-tablels__tr2 clearfix hide">
+                <div class="mh-tablels__slider fl">
+                  <div class="mh-tablels__slider-bd">
+                    <ul>
+                      <li><a href=""><img src="./img/slider_pic.jpg" alt=""></a></li>
+                    </ul>
+                  </div>
+                  <div class="mh-tablels__slider-hd">
+                    <span class="mh-tablels__slider-hd--curnum">
+                      5/10
+                    </span>
+                  </div>
+                  <a  class="mh-tablels__slider-prev"><i class="mh-tablels__icon-prev"></i></a>
+                  <a  class="mh-tablels__slider-next"><i class="mh-tablels__icon-next"></i></a>
+                </div>
+                <table class="mh-tablels__sub-table fl">
+                  <tr>
+                    <td class="mh-tablels__sub-table--title">
+                      地址
+                    </td>
+                    <td>
+
+                    </td>
+                  </tr>
+                  <tr>
+                    <td class="mh-tablels__sub-table--title">
+                      土地面积
+                    </td>
+                    <td></td>
+                  </tr>
+                  <tr>
+                    <td class="mh-tablels__sub-table--title">
+                      小区
+                    </td>
+                    <td></td>
+                  </tr>
+                  <tr>
+                    <td class="mh-tablels__sub-table--title">
+                      房屋面积
+                    </td>
+                    <td></td>
+                  </tr>
+                  <tr>
+                    <td class="mh-tablels__sub-table--title">
+                      <i class="mh-tablels__icon-openday"></i>
+                      <span>开放日</span>
+                    </td>
+                    <td class="mh-tablels__td-btns">
+                      <button class="mh-tablels__btn is-gray">查看详情</button>
+                      <button class="mh-tablels__btn is-red">加入收藏</button>
+                    </td>
+                  </tr>
+                </table>
+              </div>
+
+            </div>
+            <!-- 分页部分 -->
+            <div class="mh-tablels__pager">
+              <ul class="clearfix">
+                <li><a>1</a></li>
+                <li class="active"><a>2</a></li>
+                <li><a>3</a></li>
+                <li><a>4</a></li>
+                <li><a>5</a></li>
+                <li><a>6</a></li>
+                <li><a>7</a></li>
+                <li><a>8</a></li>
+                <li><a>9</a></li>
+                <li><a>10</a></li>
+                <li><a>···</a></li>
+                <li class="next"><a>下一页</a></li>
+              </ul>
+            </div>
+            <!-- 自定义滚动条 -->
+            <div class="mh-tablels__scrollbar">
+              <div class="mh-tablels__dragbar"></div>
+            </div>
+          </div>
+
+        </div>
+
+
+
+      </div>
+
+    </div>
 
   </body>
 </html>
