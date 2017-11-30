@@ -12,10 +12,9 @@
 .mh-home {
   width: 1440px;
   margin: 0 auto;
-  border: 1px solid red;
   background-color: #fff;
 }
-
+/* 占位 */
 .mh-map {
   width: 950px;
   height: 575px;
@@ -23,8 +22,8 @@
 }
 
 
-/* 右侧table part*/
 
+/* 右侧table part*/
 .mh-tablels {
   float: left;
   width: 490px;
@@ -91,7 +90,7 @@
   background-color: #d8d8d8;
   padding: 0 10px;
 }
-.mh-tablels__tr1 li,
+.mh-tablels__item li,
 .mh-tablels__table-head li {
   float: left;
   height: 28px;
@@ -122,22 +121,22 @@
   width: 50px;
 }
 
-.mh-tablels__tr1 {
+.mh-tablels__item {
   padding: 0 10px;
 }
-.mh-tablels__tr1 ul {
+.mh-tablels__item ul {
   border-bottom: 1px solid #dadada;
   cursor: default;
 }
-.mh-tablels__tr1.is-active{
+.mh-tablels__item.is-active{
   background-color: #f23d34;
   color: #fff;
 }
-.mh-tablels__tr1.is-active ul {
+.mh-tablels__item.is-active ul {
   border: none;
 }
 
-.mh-tablels__tr2 {
+.mh-tablels__item-detail {
   padding: 0 10px 0 30px;
 }
 
