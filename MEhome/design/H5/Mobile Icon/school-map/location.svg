@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="24px" height="29px" viewBox="0 0 24 29" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 47.1 (45422) - http://www.bohemiancoding.com/sketch -->
+    <title>Combined Shape</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M243.442154,212.763968 C248.11858,217.428424 248.11858,224.991003 243.442154,229.65546 L235.653348,237.424332 C235.278561,237.798159 234.673377,237.800617 234.296126,237.424332 L226.507319,229.65546 C221.830894,224.991003 221.830894,217.428424 226.507319,212.763968 C231.183745,208.099511 238.765729,208.099511 243.442154,212.763968 Z M234.93135,227.16265 C238.226101,227.16265 240.897025,224.491726 240.897025,221.196975 C240.897025,217.902224 238.226101,215.2313 234.93135,215.2313 C231.636599,215.2313 228.965675,217.902224 228.965675,221.196975 C228.965675,224.491726 231.636599,227.16265 234.93135,227.16265 Z" id="path-1"></path>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="School-Map" transform="translate(-223.000000, -209.000000)">
+            <mask id="mask-2" fill="white">
+                <use xlink:href="#path-1"></use>
+            </mask>
+            <use id="Combined-Shape" fill="#E21F26" xlink:href="#path-1"></use>
+        </g>
+    </g>
+</svg>

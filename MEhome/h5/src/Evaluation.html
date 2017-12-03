@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no"/>
+  <meta name="format-detection" content="telephone=no"/>
+  <meta name="format-detection" content="email=no"/>
+  <meta name="apple-mobile-web-app-capable" content="yes"/>
+  <meta name="apple-mobile-web-app-status-bar-style" content="black"/>
+  <meta name="msapplication-tap-highlight" content="no"/>
+  <meta name="wap-font-scale" content="no">
+      <!-- UC应用模式 -->
+  <meta name="browsermode" content="application">
+      <!-- QQ应用模式 -->
+  <meta name="x5-page-mode" content="app">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge,chrome=1">
+  <title>MEhome-h5 Evaluation</title>
+  <script src="./js/rem100.js"></script>
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="fonts/iconfont.css">
+  <link rel="stylesheet" href="css/common.css">
+  <link rel="stylesheet" href="css/evaluation.css">
+</head>
+<body>
+  <div class="mh-main">
+    <div class="mh-evaluation__bg"></div>
+    <!-- head -->
+    <div class="mh-header flex mh-header-fix">
+      <div class="mh-header__left">
+        <span class="mh-header__back"><i class="iconfont icon-back"></i></span>
+      </div>
+      <div class="mh-header__center flex-1">
+        <div class="mh-header__logo"></div>
+        <div class="mh-header__search">
+          <span class="mh-header__search-icon">
+            <i class="iconfont icon-search"></i>
+          </span>
+          <input type="text" class="mh-header__input" placeholder="MLS编号， 地址，城市">
+        </div>
+        <div class="mh-header__location">
+          <span class="mh-header__location-icon">
+            <i class="iconfont icon-location"></i>
+          </span>
+          <span class="mh-header__location-name">
+            温哥华
+          </span>
+        </div>
+      </div>
+    </div>
+
+
+    <!-- content -->
+    <div class="mh-container">
+      <!-- form 提交部分 -->
+      <div class="mh-evaluation__form">
+        <h3 class="mh-evaluation__form-qa">
+          想知道您房屋的当前售价？
+        </h3>
+        <p class="mh-evaluation__form-tips">
+          一键查看精准估价！
+        </p>
+        <div class="mh-evaluation__form-item">
+          <span class="mh-evaluation__form-icon">
+            <i class="iconfont icon-search"></i>
+          </span>
+          <input type="text" class="mh-evaluation__form-input" placeholder="想要查询的房屋地址">
+        </div>
+        <div class="mh-evaluation__form-item">
+          <span class="mh-evaluation__form-icon">
+            <i class="iconfont icon-telephone"></i>
+          </span>
+          <input type="tel" class="mh-evaluation__form-input" placeholder="您的联系电话">
+        </div>
+        <div class="mh-evalution__form-submit tc">
+          <div class="mh-evalution__btn">提交</div>
+        </div>
+      </div>
+      <!-- 地图部分 -->
+      <div class="mh-evaluation__map">
+        <!-- 占位 -->
+        <img src="./img/evaluation/map.png" width="100%" alt="">
+      </div>
+    </div>
+
+    <!-- bottom contact link -->
+    <div class="mh-contact flex flex-pack-justify flex-align-center">
+      <div class="mh-contact__logo">
+        <img src="./img/Logo.png" class="mh-contact__logo-img" alt="">
+      </div>
+      <div class="mh-contact__tel">
+        <div class="mh-contact__tel-item">
+          <a href="tel:95040555886">
+              <i class="icon-china"></i> <span>95040-555-886</span>
+          </a>
+        </div>
+        <div class="mh-contact__tel-item">
+            <a href="tel:7788883888">
+                <i class="icon-canada"></i> <span>778.888.3888</span>
+            </a>
+        </div>
+      </div>
+      <div class="mh-contact__qrcode">
+        <img src="./img/qrcode.png" class="mh-contact__qrcode-img" alt="">
+      </div>
+    </div>
+
+    <!-- tabbar -->
+    <div class="mh-tabbar tc mh-tabbar__fix">
+      <ul class="flex flex-align-center">
+        <li class="flex-1">
+          <a href="###">
+            <span class="mh-tabbar__item-icon">
+              <i class="iconfont icon-home"></i>
+            </span>
+            <p class="mh-tabbar__item-title">
+              首页
+            </p>
+          </a>
+        </li>
+        <li class="flex-1 active">
+          <a href="###">
+            <span class="mh-tabbar__item-icon">
+              <i class="iconfont icon-telephone"></i>
+            </span>
+            <p class="mh-tabbar__item-title">
+              电话
+            </p>
+          </a>
+        </li>
+        <li class="flex-1">
+          <a href="###">
+            <span class="mh-tabbar__item-icon">
+              <i class="iconfont icon-star"></i>
+            </span>
+            <p class="mh-tabbar__item-title">
+              收藏
+            </p>
+          </a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</body>
+</html>

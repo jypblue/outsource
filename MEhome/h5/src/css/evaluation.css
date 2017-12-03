@@ -1,0 +1,65 @@
+
+.mh-evaluation__bg {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 9.86rem;
+  background: url('../img/evaluation/ME_bg.png') no-repeat;
+  background-size:  100% 100%;
+  z-index: -1;
+}
+
+.mh-evaluation__form {
+  width: 7.2rem;
+  margin: 0 auto;
+  padding-top: 0.4rem;
+}
+
+.mh-evaluation__form-qa {
+  font-size: 0.4rem;
+  color: #000;
+}
+
+.mh-evaluation__form-tips {
+  font-size: 0.2rem;
+}
+
+.mh-evaluation__form-item {
+  padding: 0.2rem 0 0.4rem;
+  position: relative;
+}
+.mh-evaluation__form-input {
+  width: 100%;
+  height: 0.72rem;
+  border: 1px solid #666;
+  border-radius: 0.12rem;
+  padding-left: 0.6rem;
+  font-size: 0.24rem;
+}
+
+.mh-evaluation__form-icon {
+  position: absolute;
+  left: 0.16rem;
+  top: 0.16rem;
+  color: #f23d34;
+  padding-top: 0.2rem;
+}
+.mh-evaluation__form-icon i {font-size: 0.28rem;}
+.mh-evalution__btn {
+  display: inline-block;
+  width: 1.52rem;
+  height: 0.64rem;
+  line-height: 0.64rem;
+  text-align: center;
+  color: #fff;
+  font-size: 0.24rem;
+  background-color: #f23d34;
+  border-radius: 0.12rem;
+}
+
+.mh-evaluation__map {
+  width: 7.2rem;
+  height: 4.9rem;
+  margin: 0.2rem auto;
+}

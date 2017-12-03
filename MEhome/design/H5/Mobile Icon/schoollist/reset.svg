@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="12px" height="12px" viewBox="0 0 12 12" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 47.1 (45422) - http://www.bohemiancoding.com/sketch -->
+    <title>Page 1</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <polygon id="path-1" points="2.70226549e-16 11.99984 2.70226549e-16 0.5544 11.44536 0.5544 11.44536 11.99984"></polygon>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="School-List" transform="translate(-304.000000, -72.000000)">
+            <g id="Group-2-Copy-14" transform="translate(292.000000, 62.000000)">
+                <g id="Group">
+                    <g id="Group-2-Copy-6" transform="translate(12.000000, 6.000000)">
+                        <g id="Page-1" transform="translate(0.000000, 4.000000)">
+                            <g id="Group-3">
+                                <mask id="mask-2" fill="white">
+                                    <use xlink:href="#path-1"></use>
+                                </mask>
+                                <g id="Clip-2"></g>
+                                <path d="M5.72296,11.99984 C2.56696,11.99984 -0.00024,9.43344 -0.00024,6.27744 C-0.00024,5.65824 0.09816,5.04944 0.29176,4.46704 L1.06776,4.72544 C0.90216,5.22464 0.81736,5.74704 0.81736,6.27744 C0.81736,8.98224 3.01816,11.18304 5.72296,11.18304 C8.42776,11.18304 10.62776,8.98224 10.62776,6.27744 C10.62776,3.57264 8.42776,1.37184 5.72296,1.37184 C4.93656,1.37184 4.18616,1.55184 3.49176,1.90784 L3.11976,1.17984 C3.91896,0.77024 4.81896,0.55424 5.72296,0.55424 C8.87816,0.55424 11.44536,3.12144 11.44536,6.27744 C11.44536,9.43344 8.87816,11.99984 5.72296,11.99984" id="Fill-1" fill="#322D2D" mask="url(#mask-2)"></path>
+                            </g>
+                            <path d="M2.89920424,1.00021116 L2,2.69672624 L4,3 C4,3 2.88594164,0.976246753 2.89920424,1.00021116" id="Fill-4" fill="#322D2D"></path>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="4px" height="7px" viewBox="0 0 4 7" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 47.1 (45422) - http://www.bohemiancoding.com/sketch -->
+    <title>Shape</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="School-list-detail-defult" transform="translate(-251.000000, -857.000000)" fill-rule="nonzero" fill="#666666">
+            <g id="Group-2" transform="translate(0.000000, 840.000000)">
+                <g id="Group-38" transform="translate(152.000000, 12.000000)">
+                    <path d="M99.4032969,12 C99.3015163,12 99.1997358,11.9679034 99.1318612,11.9036803 C98.9621748,11.7752342 98.9621748,11.5183421 99.0979239,11.3899258 L102.049936,8.50000795 L99.0979239,5.61011994 C98.9622061,5.4495474 98.9622061,5.22478165 99.1318612,5.09633556 C99.3005984,4.96788815 99.5399639,4.96788815 99.7087012,5.09633556 L102.898212,8.24311576 C103.033929,8.37156185 103.033929,8.59632761 102.898212,8.75687031" id="Shape" transform="translate(101.000000, 8.500000) rotate(-360.000000) translate(-101.000000, -8.500000) "></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

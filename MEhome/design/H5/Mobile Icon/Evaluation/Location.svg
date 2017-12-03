@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="25px" height="29px" viewBox="0 0 25 29" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 47.1 (45422) - http://www.bohemiancoding.com/sketch -->
+    <title>Location</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M20.5474173,3.49834255 C25.2238429,8.16279929 25.2238429,15.7253779 20.5474173,20.3898346 L12.7586108,28.1587065 C12.3838243,28.5325338 11.77864,28.5349921 11.4013889,28.1587065 L3.61258232,20.3898346 C-1.06384323,15.7253779 -1.06384323,8.16279929 3.61258232,3.49834255 C8.28900788,-1.16611418 15.8709918,-1.16611418 20.5474173,3.49834255 Z M12.0366132,17.8970251 C15.3313645,17.8970251 18.0022882,15.2261014 18.0022882,11.93135 C18.0022882,8.6365987 15.3313645,5.96567502 12.0366132,5.96567502 C8.74186186,5.96567502 6.07093817,8.6365987 6.07093817,11.93135 C6.07093817,15.2261014 8.74186186,17.8970251 12.0366132,17.8970251 Z" id="path-1"></path>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Evaluation" transform="translate(-174.000000, -396.000000)">
+            <g id="Location" transform="translate(173.531250, 394.105469)">
+                <g id="Oval" transform="translate(1.000000, 2.000000)">
+                    <mask id="mask-2" fill="white">
+                        <use xlink:href="#path-1"></use>
+                    </mask>
+                    <use id="Combined-Shape" fill="#E21F26" xlink:href="#path-1"></use>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

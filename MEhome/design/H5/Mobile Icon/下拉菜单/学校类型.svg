@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="376px" height="94px" viewBox="0 0 376 94" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 47.1 (45422) - http://www.bohemiancoding.com/sketch -->
+    <title>Group 57</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Group-57">
+            <rect id="Rectangle-22" fill="#F2F2F2" x="0.37109375" y="0.46484375" width="375" height="93.5351563" rx="8"></rect>
+            <g id="Group-51-Copy" transform="translate(12.656250, 12.000000)">
+                <text id="学校类型" font-family="MicrosoftYaHei, Microsoft YaHei" font-size="14" font-weight="normal" fill="#4A4A4A">
+                    <tspan x="0.91796875" y="15.9570312">学校类型</tspan>
+                </text>
+                <path d="M4.91796875,33.9570312 L71.9179688,33.9570312 L71.9179688,33.9570312 C74.1271077,33.9570312 75.9179688,35.7478923 75.9179688,37.9570312 L75.9179688,61.9565806 L75.9179688,61.9565806 C75.9179688,64.1657196 74.1271077,65.9565806 71.9179688,65.9565806 L4.91796875,65.9565806 L4.91796875,65.9565806 C2.70882975,65.9565806 0.91796875,64.1657196 0.91796875,61.9565806 L0.91796875,37.9570312 L0.91796875,37.9570312 C0.91796875,35.7478923 2.70882975,33.9570312 4.91796875,33.9570312 Z" id="Rectangle-10" fill="#F23D34"></path>
+                <text id="公立" font-family="PingFangSC-Regular, PingFang SC" font-size="14" font-weight="normal" letter-spacing="0.357142895" fill="#FFFFFF">
+                    <tspan x="31.5730801" y="53.9570312">公立</tspan>
+                </text>
+                <g id="Group-2" transform="translate(8.298828, 42.957031)" stroke="#FFFFFF">
+                    <rect id="Rectangle-10" x="0.5" y="0.5" width="13" height="13"></rect>
+                    <polyline id="Path-2" points="2 6.67085428 5.60253221 10.0734022 12 4"></polyline>
+                </g>
+                <path d="M94.2513021,33.9570312 L161.251302,33.9570312 L161.251302,33.9570312 C163.460441,33.9570312 165.251302,35.7478923 165.251302,37.9570312 L165.251302,61.9570312 L165.251302,61.9570312 C165.251302,64.1661702 163.460441,65.9570312 161.251302,65.9570312 L94.2513021,65.9570312 L94.2513021,65.9570312 C92.0421631,65.9570312 90.2513021,64.1661702 90.2513021,61.9570312 L90.2513021,37.9570312 L90.2513021,37.9570312 C90.2513021,35.7478923 92.0421631,33.9570312 94.2513021,33.9570312 Z" id="Rectangle-10" fill="#F2F2F2"></path>
+                <text id="私立" font-family="PingFangSC-Regular, PingFang SC" font-size="14" font-weight="normal" letter-spacing="0.357142895" fill="#666666">
+                    <tspan x="125.52441" y="53.9570312">私立</tspan>
+                </text>
+                <g id="Group-2-Copy" transform="translate(100.348958, 42.957031)" stroke="#666666">
+                    <rect id="Rectangle-10" x="0.5" y="0.5" width="13" height="13"></rect>
+                </g>
+                <path d="M183.584635,33.9570312 L250.584635,33.9570312 L250.584635,33.9570312 C252.793774,33.9570312 254.584635,35.7478923 254.584635,37.9570312 L254.584635,61.9570312 L254.584635,61.9570312 C254.584635,64.1661702 252.793774,65.9570312 250.584635,65.9570312 L183.584635,65.9570312 L183.584635,65.9570312 C181.375496,65.9570312 179.584635,64.1661702 179.584635,61.9570312 L179.584635,37.9570312 L179.584635,37.9570312 C179.584635,35.7478923 181.375496,33.9570312 183.584635,33.9570312 Z" id="Rectangle-10" fill="#F2F2F2"></path>
+                <text id="不限" font-family="PingFangSC-Regular, PingFang SC" font-size="14" font-weight="normal" letter-spacing="0.357142895" fill="#666666">
+                    <tspan x="213.062291" y="53.9570312">不限</tspan>
+                </text>
+                <rect id="Rectangle-10" stroke="#666666" x="188.41862" y="43.4570312" width="13" height="13"></rect>
+            </g>
+        </g>
+    </g>
+</svg>

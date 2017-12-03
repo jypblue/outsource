@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="23px" height="40px" viewBox="0 0 23 40" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 47.1 (45422) - http://www.bohemiancoding.com/sketch -->
+    <title>Group 7</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Artboard" transform="translate(-70.000000, -12.000000)">
+            <g id="Group-7" transform="translate(71.000000, 13.000000)">
+                <g id="Group-5" transform="translate(0.000000, 27.000000)" font-size="10" font-family="PingFangSC-Regular, PingFang SC" letter-spacing="0.3571429" fill="#666666" font-weight="normal">
+                    <text id="收藏">
+                        <tspan x="0.1428571" y="11">收藏</tspan>
+                    </text>
+                </g>
+                <path d="M13.0091488,7.49212324 L19.9411945,7.49212324 C20.3165922,7.49212324 20.4725437,7.97334512 20.1684382,8.19390514 L14.5608666,12.267582 L16.7040863,18.8587623 C16.819936,19.2152229 16.4111202,19.5126448 16.1081286,19.2909708 L10.499443,15.2184079 L4.89298534,19.2909708 C4.58999378,19.5126448 4.18117797,19.2152229 4.29702769,18.8587623 L6.43801948,12.267582 L0.831561785,8.19390514 C0.527456292,7.97334512 0.683407827,7.49212324 1.05880545,7.49212324 L7.99085119,7.49212324 L10.131843,0.900942993 C10.2476927,0.543368402 10.7523073,0.543368402 10.868157,0.900942993 L13.0091488,7.49212324 Z" id="Fill-10" stroke="#F23D34" stroke-width="1.5"></path>
+            </g>
+        </g>
+    </g>
+</svg>

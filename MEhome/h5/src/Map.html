@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no"/>
+  <meta name="format-detection" content="telephone=no"/>
+  <meta name="format-detection" content="email=no"/>
+  <meta name="apple-mobile-web-app-capable" content="yes"/>
+  <meta name="apple-mobile-web-app-status-bar-style" content="black"/>
+  <meta name="msapplication-tap-highlight" content="no"/>
+  <meta name="wap-font-scale" content="no">
+      <!-- UC应用模式 -->
+  <meta name="browsermode" content="application">
+      <!-- QQ应用模式 -->
+  <meta name="x5-page-mode" content="app">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge,chrome=1">
+  <title>MEhome-h5 Map</title>
+  <script src="./js/rem100.js"></script>
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="fonts/iconfont.css">
+  <link rel="stylesheet" href="css/common.css">
+  <link rel="stylesheet" href="css/map.css">
+</head>
+<body>
+  <div class="mh-map">
+    <!-- head -->
+    <div class="mh-header flex mh-header-fix">
+      <div class="mh-header__left">
+        <span class="mh-header__back"><i class="iconfont icon-back"></i></span>
+      </div>
+      <div class="mh-header__center flex-1">
+        <!-- 占位 -->
+        <div class="mh-header__place"></div>
+        <div class="mh-header__search">
+          <span class="mh-header__search-icon">
+            <i class="iconfont icon-search"></i>
+          </span>
+          <input type="text" class="mh-header__input mh-header__input--tiny" placeholder="MLS编号， 地址，城市">
+        </div>
+      </div>
+      <div class="mh-header__right tc">
+        <span class="mh-header__icon-star">
+          <i class="mh-header__right-icon iconfont icon-star"></i>
+        </span>
+        <span class="mh-header__icon-filter">
+          <i class="mh-header__right-icon iconfont icon-filter-selected"></i>
+        </span>
+      </div>
+    </div>
+
+    <!-- filter -->
+    <div class="mh-map__filter mh-map__filter-fix">
+      <ul class="flex flex-align-center">
+        <li class="flex-1">
+          <span class="mh-map__filter-name">区域</span>
+          <span class="mh-map__filter-icon">
+            <i class="iconfont icon-down"></i>
+          </span>
+        </li>
+        <li class="flex-1">
+          <span class="mh-map__filter-name">价格</span>
+          <span class="mh-map__filter-icon">
+            <i class="iconfont icon-down"></i>
+          </span>
+        </li>
+        <li class="flex-1">
+          <span class="mh-map__filter-name">所有房型</span>
+          <span class="mh-map__filter-icon">
+            <i class="iconfont icon-down"></i>
+          </span>
+        </li>
+        <li class="flex-1 active">
+          <span class="mh-map__filter-name">更多</span>
+          <span class="mh-map__filter-icon">
+            <i class="iconfont icon-up"></i>
+          </span>
+        </li>
+      </ul>
+    </div>
+
+    <!-- Map body -->
+    <div class="mh-map__body">
+      <!-- 占位 实际地图时替换-->
+      <img src="./img/map/map_body.jpg" width="100%" height="100%" alt="">
+    </div>
+
+    <!-- MEhome sale slide item -->
+    <div class="mh-map__slide">
+      <div class="mh-map__slide-bd">
+        <ul>
+          <li>
+            <div class="mh-map__slide-pic">
+              <img src="" alt="">
+            </div>
+            <div class="mh-map__slide-content">
+              <h4 class="mh-map__slide-title">
+                8391 Fairway Road
+              </h4>
+              <div class="mh-map__slide-desc">
+                <span></span>
+                <span></span>
+                <span></span>
+              </div>
+              <div class="mh-map__slide-info">
+                <span class="mh-map__slide-address">
+
+                </span>
+                <span class="mh-map__slide-price">
+
+                </span>
+              </div>
+            </div>
+
+          </li>
+        </ul>
+      </div>
+      <span class="mh-map__slide-prev">
+        <i></i>
+      </span>
+      <span class="mh-map__slide-next"></span>
+    </div>
+
+  </div>
+</body>
+</html>

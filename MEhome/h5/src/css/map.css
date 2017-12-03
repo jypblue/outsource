@@ -1,0 +1,38 @@
+/* filter  */
+.mh-map__filter {
+  width: 100%;
+  height: 0.64rem;
+  background-color: #f2f2f2;
+}
+.mh-map__filter-fix {
+  position: fixed;
+  left: 0;
+  top: 1.08rem;
+  z-index: 99;
+}
+
+.mh-map__filter li {
+  text-align: center;
+  height: 0.64rem;
+  line-height: 0.64rem;
+  color: #4a4a4a;
+  font-size: 0.24rem;
+}
+.mh-map__filter li.active {
+  color: #f23d34;
+}
+
+.mh-map__filter-icon {
+  padding-left: 0.1rem;
+  display: inline-block;
+  vertical-align: middle;
+}
+.mh-map__filter-icon i{ font-size: 0.24rem;}
+
+.mh-map__body {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
