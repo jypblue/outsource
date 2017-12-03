@@ -149,6 +149,7 @@
 }
 .mh-contact__tel {
   width: 2.9rem;
+  padding-top: 0.26rem;
 }
 .mh-contact__tel-item {
   font-weight: bold;
