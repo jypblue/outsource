@@ -36,3 +36,72 @@
   left: 0;
   top: 0;
 }
+
+
+/* 底部选项slide */
+.mh-map__slide-fix {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 2.2rem;
+  background-color: #fff;
+}
+.mh-map__slide {
+  position: relative;
+  width: 6.7rem;
+  height: 2.2rem;
+  background-color: #fff;
+  margin: 0 auto;
+}
+
+.mh-map__slide-bd {
+  width: 6.7rem;
+  padding: 0.3rem 0;
+  font-size: 0.24rem;
+  overflow: hidden;
+}
+
+.mh-map__slide-pic {
+  width: 2.4rem;
+  height: 1.64rem;
+}
+.mh-map__slide-content {
+  padding-left: 0.2rem;
+}
+.mh-map__slide-title {
+  font-size: 0.32rem;
+  color: #4a4a4a;
+}
+
+.mh-map__slide-desc {
+  padding: 0.2rem 0;
+}
+
+.mh-map__slide-address{
+  color: #4a4a4a;
+}
+
+.mh-map__slide-price {
+  color: #f23d34;
+  font-size: 0.28rem;
+  font-weight: bold;
+}
+.mh-map__slide-next,
+.mh-map__slide-prev {
+  position: absolute;
+  top: 0;
+  height: 100%;
+  line-height: 2.2rem;
+}
+
+.mh-map__slide-prev {
+  left: -0.36rem;
+}
+.mh-map__slide-next {
+  right: -0.36rem;
+}
+.mh-map__slide-next i,
+.mh-map__slide-prev i {
+  font-size: 0.32rem;
+}
