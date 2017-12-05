@@ -134,11 +134,9 @@
 .mh-school__loadmore {
   position: relative;
   padding: 0.24rem 0;
-  margin-bottom: 0.3rem;
 }
 
 .mh-school__loadmore--word{
-  font-size: 0.22rem;
   text-align: center;
 }
 .mh-school__loadmore--icon {
@@ -149,7 +147,7 @@
   position: absolute;
   top: 0.28rem;
   right: 0.2rem;
-  font-size: 0.2rem;
+  font-size: 0.22rem;
 }
 .mh-school__loadmore--num em{ color: #f23d34; padding: 0 0.05rem;}
 

@@ -157,7 +157,7 @@
 .mh-contact{
   padding-bottom: 0.32rem;
   width: 7.5rem;
-  margin: 0 auto;
+  margin: 0.3rem auto 0;
 }
 .mh-contact__logo{
   padding: 0 0.2rem 0 0.24rem;
