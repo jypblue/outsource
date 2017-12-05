@@ -1,0 +1,236 @@
+/* school-list */
+.mh-school__tabs {
+  padding-top: 0.2rem;
+}
+
+.mh-school__tabs-nav {
+  width: 100%;
+  height: 0.64rem;
+  text-align: center;
+}
+.mh-school__tabs-nav ul{font-size: 0;}
+.mh-school__tab-bar {
+  display: inline-block;
+  height: 0.64rem;
+  line-height: 0.64rem;
+  padding: 0 0.1rem;
+  font-size: 0.28rem;
+  margin: 0 0.15rem;
+}
+.mh-school__tab-bar.active{
+  color: #fff;
+  background-color: #f23d34;
+}
+
+.mh-school__tabs-tips {
+  font-size: 0.22rem;
+  padding: 0.1rem 0.2rem;
+  width: 100%;
+  text-align: center;
+}
+
+.mh-school__tabs-pane {
+  box-shadow: 0 1px 1px -1px #dadada;
+  -webkit-box-shadow: 0 1px 1px -1px #dadada;
+  display: none;
+}
+.mh-school__tabs-pane.active{
+  display: block;
+}
+
+
+.mh-school__item {
+  width: 100%;
+  padding: 0.1rem 0.2rem;
+  box-shadow: 0 -1px 1px -1px #dadada;
+  -webkit-box-shadow: 0 -1px 1px -1px #dadada;
+}
+
+.mh-school__item-pic img,
+.mh-school__item-pic {
+  width: 2.4rem;
+  height: 1.64rem;
+  position: relative;
+}
+
+.mh-school__item-mask {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 0.72rem;
+  height: 0.32rem;
+  color: #fff;
+  background-color: #f23d34;
+  text-align: center;
+  font-size: 0.22rem;
+  z-index: 2;
+}
+.mh-school__item-mask:before,
+.mh-school__item-mask:after {
+  display: block;
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: -0.32rem;
+  width: 0;
+  height: 0;
+  border-bottom: 0.32rem solid transparent;
+}
+
+.mh-school__item-mask:after {
+  border-left: 0.72rem solid #f23d34;
+}
+
+.mh-school__item-mask:before {
+  border-right: 0.72rem solid #e12d24;
+}
+
+.mh-school__item-content {
+  padding-left: 0.3rem;
+}
+
+.mh-school__item-cnname {
+  font-size: 0.22rem;
+  color: #f23d34;
+}
+.mh-school__item-enname {
+  font-size: 0.32rem;
+  color: #4a4a4a;
+}
+
+.mh-school__item-desc {
+  font-size: 0.28rem;
+}
+.mh-school__ranking-year{
+  font-size: 0.28rem;
+  color: #4a4a4a;
+}
+
+.mh-school__ranking-num {
+  font-size: 0.3rem;
+  font-weight: bold;
+  color: #f23d34;
+}
+
+.mh-school__item-title {
+  font-size: 0.32rem;
+  color: #4a4a4a;
+  padding: 0.1rem 0 ;
+}
+.mh-school__item-info {
+  padding: 0.1rem 0;
+}
+.mh-school__address {
+  font-size: 0.28rem;
+  color: #4a4a4a;
+}
+.mh-school__price {
+  font-size: 0.3rem;
+  font-weight: bold;
+  color: #f23d34;
+}
+
+/* loadmore */
+.mh-school__loadmore {
+  position: relative;
+  padding: 0.24rem 0;
+  margin-bottom: 0.3rem;
+}
+
+.mh-school__loadmore--word{
+  font-size: 0.22rem;
+  text-align: center;
+}
+.mh-school__loadmore--icon {
+  padding-left: 0.3rem;
+  vertical-align: middle;
+}
+.mh-school__loadmore--num {
+  position: absolute;
+  top: 0.28rem;
+  right: 0.2rem;
+  font-size: 0.2rem;
+}
+.mh-school__loadmore--num em{ color: #f23d34; padding: 0 0.05rem;}
+
+
+/* school - detail */
+.mh-school-detail__top-pic img{
+  width: 100%;
+  min-height: 5.16rem;
+}
+
+.mh-school-detail__top-desc {
+  width: 100%;
+  padding: 0.6rem 0.2rem 0.4rem;
+}
+
+.mh-school-detail__top-name {
+  font-size: 0.32rem;
+  color: #f23d34;
+}
+
+.mh-school-detail__cnname {
+  font-size: 0.36rem;
+  color: #4a4a4a;
+}
+
+.mh-school-detail__ranking-num {
+  font-size: 0.36rem;
+  color: #f23d34;
+}
+.mh-school-detail__ranking-from {
+  font-size: 0.2rem;
+}
+
+.mh-school-detail__top-item {
+  margin: 0.05rem 0;
+}
+
+/* 基本信息 */
+.mh-school-detail__module-title {
+  padding: 0.2rem;
+  background-color: #f2f2f2;
+  font-size: 0.28rem;
+  font-weight: bold;
+  color: #4a4a4a;
+}
+
+.mh-collapse-item__content {
+  padding-top: 0.2rem;
+  box-shadow: 0 1px 1px -1px #dadada;
+  -webkit-box-shadow: 0 1px 1px -1px #dadada;
+}
+.mh-collapse-item__header {
+  padding: 0.24rem 0;
+}
+.mh-collapse-item__icon {
+  padding-left: 0.46rem;
+  vertical-align: middle;
+}
+
+.mh-collapse-item__close {
+  color: #f23d34;
+}
+
+
+.mh-school-detail__base-item {
+  padding: 0.26rem 0.2rem;
+  box-shadow: 0 -1px 1px -1px #dadada;
+  -webkit-box-shadow: 0 -1px 1px -1px #dadada;
+}
+.mh-school-detail__map-item {
+  padding: 0.2rem;
+}
+
+.mh-school-detail__map-item--icon i{
+  font-size: 0.46rem;
+  line-height: 1;
+  color: #f23d34;
+}
+
+/* 学区房源推荐 */
+.mh-school-detail__list {
+  box-shadow: 0 1px 1px -1px #dadada;
+  -webkit-box-shadow: 0 1px 1px -1px #dadada;
+}

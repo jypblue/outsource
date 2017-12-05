@@ -19,12 +19,15 @@
 .tr{text-align: right;}
 .tl{text-align: left;}
 .no-border{border: none!important;}
+.hide {display: none;}
+.color-deep { color: #4a4a4a;}
 
 
 /*  */
 .mh-main {
   position: relative;
   padding: 1.08rem 0 1rem;
+  font-size: 0.24rem;
 }
 
 /* component TabBar */
@@ -87,6 +90,17 @@
   vertical-align: top;
   margin-top: 0.1rem;
 }
+
+.mh-header__logo-large {
+  display: inline-block;
+  width: 2.92rem;
+  height: 0.92rem;
+  background: url('../img/Logo_large.png') no-repeat;
+  background-size: 100% 100%;
+  vertical-align: top;
+  margin-top: 0.02rem;
+}
+
 .mh-header__place {
   display: inline-block;
   width: 1.2rem;
@@ -133,6 +147,11 @@
   font-size: 0.64rem;
   color: #f23d34;
 }
+.mh-header__school-left {
+  width: 2rem;
+  padding-right: 1rem;
+  text-align: center;
+}
 
 /* component contact */
 .mh-contact{
@@ -178,4 +197,39 @@
   height: 1.34rem;
 }
 
-/*  */
+/* component filter */
+.mh-filter {
+  width: 100%;
+  height: 0.64rem;
+  background-color: #fff;
+}
+.mh-filter-fix {
+  position: fixed;
+  left: 0;
+  top: 1.08rem;
+  z-index: 99;
+}
+
+.mh-filter li {
+  text-align: center;
+  height: 0.64rem;
+  line-height: 0.64rem;
+  color: #4a4a4a;
+  font-size: 0.24rem;
+}
+.mh-filter li.active {
+  color: #f23d34;
+}
+
+.mh-filter-icon {
+  padding-left: 0.1rem;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.mh-filter__icon-left {
+  padding-right: 0.1rem;
+  vertical-align: baseline;
+}
+
+.mh-filter-icon i{ font-size: 0.24rem;}
