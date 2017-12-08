@@ -78,9 +78,9 @@
 }
 .mh-header__back {
   color: #c7c7cc;
-  font-size: 0.32rem;
   line-height: 0.96rem;
 }
+.mh-header__back i {font-size: 0.48rem;}
 .mh-header__logo {
   display: inline-block;
   width: 1.88rem;
