@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no"/>
+  <meta name="viewport" content="width=device-width,initial-scale=1.0,viewport-fit=cover,user-scalable=no"/>
   <meta name="format-detection" content="telephone=no"/>
   <meta name="format-detection" content="email=no"/>
   <meta name="apple-mobile-web-app-capable" content="yes"/>
@@ -16,13 +16,15 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge,chrome=1">
   <title>MEhome-h5 School List Detail</title>
   <script src="./js/rem100.js"></script>
+  <!-- 微信中兼容iPhoneX -->
+  <script src="./js/iphonex.js"></script>
   <link rel="stylesheet" href="css/reset.css">
   <link rel="stylesheet" href="fonts/iconfont.css">
   <link rel="stylesheet" href="css/common.css">
   <link rel="stylesheet" href="css/school.css">
 </head>
 <body>
-  <div class="mh-main">
+  <div class="mh-main has-bottombar">
     <!-- head -->
     <div class="mh-header flex mh-header-fix">
       <div class="mh-header__school-left">
@@ -418,7 +420,7 @@
     </div>
 
     <!-- tabbar -->
-    <div class="mh-tabbar tc mh-tabbar__fix">
+    <div class="mh-tabbar tc mh-tabbar__fix bottom-menu-fixed ">
       <ul class="flex flex-align-center">
         <li class="flex-1">
           <a href="###">

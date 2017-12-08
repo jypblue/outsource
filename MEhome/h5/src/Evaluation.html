@@ -15,14 +15,19 @@
   <meta name="x5-page-mode" content="app">
   <meta http-equiv="X-UA-Compatible" content="ie=edge,chrome=1">
   <title>MEhome-h5 Evaluation</title>
+  <!-- rem<=>px布局脚本-->
   <script src="./js/rem100.js"></script>
+  <!-- 微信中兼容iPhoneX -->
+  <script src="./js/iphonex.js"></script>
+
   <link rel="stylesheet" href="css/reset.css">
   <link rel="stylesheet" href="fonts/iconfont.css">
   <link rel="stylesheet" href="css/common.css">
   <link rel="stylesheet" href="css/evaluation.css">
+
 </head>
 <body>
-  <div class="mh-main">
+  <div class="mh-main has-bottombar">
     <div class="mh-evaluation__bg"></div>
     <!-- head -->
     <div class="mh-header flex mh-header-fix">
@@ -105,7 +110,7 @@
     </div>
 
     <!-- tabbar -->
-    <div class="mh-tabbar tc mh-tabbar__fix">
+    <div class="mh-tabbar tc mh-tabbar__fix bottom-menu-fixed">
       <ul class="flex flex-align-center">
         <li class="flex-1">
           <a href="###">
@@ -141,5 +146,7 @@
     </div>
 
   </div>
+
+
 </body>
 </html>
